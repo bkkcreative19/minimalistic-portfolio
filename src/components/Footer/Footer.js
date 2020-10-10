@@ -1,7 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import './Footer.scss'
-import Logo from '../../assets/logo.svg'
 import Twitter from '../../assets/icons/twitter.svg'
 import Github from '../../assets/icons/github.svg'
 import Linkedin from '../../assets/icons/linkedin.svg'
