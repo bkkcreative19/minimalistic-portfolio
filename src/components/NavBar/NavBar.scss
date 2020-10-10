@@ -1,0 +1,25 @@
+.nav-bar {
+    padding: 2.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__list {
+        display: flex;
+        list-style: none;
+        align-items: center;
+
+        &-link {
+            text-decoration: none;
+            color: #33323D;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            font-family: 'Public Sans', sans-serif;
+            letter-spacing: .2rem;
+        }
+        &-link:not(:last-child) {
+           margin-right: 3.2rem;
+          
+        }   
+    }
+}
