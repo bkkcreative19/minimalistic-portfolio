@@ -1,0 +1,52 @@
+.about {
+    display: flex;
+    margin: 14rem 0;
+
+    &__img {
+        background: url(../../assets/homepage/desktop/image-homepage-profile.jpg) center no-repeat;
+        background-size: cover;
+        height: 55rem;
+        flex: 2;
+    }
+    
+    
+    &__content {
+        flex: 2;
+        // padding: 3rem 0;
+        
+
+        &-container {
+            height: 100%;
+            width: 57%;
+            margin: 0 auto;
+            border-top: 2px solid #97979733;
+            border-bottom: 2px solid #97979733;
+            padding-bottom: 4rem;
+            padding-top: 4rem;
+            
+        }
+
+        &-head {
+            font-size: 4rem;
+            font-family: 'Ibarra Real Nova', serif;
+            font-weight: 700;
+        }
+        &-text {
+            font-size: 1.6rem;
+            line-height: 1.6;
+            margin: 1.5rem 0;
+            font-family: 'Public Sans', sans-serif;
+        }
+        &-btn {
+            font-size: 1.2rem;
+            margin-top: 1.4rem;
+            padding: 1.5rem 3.5rem;
+            text-transform: uppercase;
+            color: #33323D;
+            background-color: #fff;
+            outline: none;
+            border: 1px soild #33323D;
+            letter-spacing: .2rem;
+        }
+    }
+}
