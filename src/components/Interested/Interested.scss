@@ -1,0 +1,23 @@
+.interested {
+    display: flex;
+    justify-content: space-between;
+    margin: 13rem 0;
+    padding: 2.5rem 0;
+    
+    &__head {
+        font-size: 4rem;
+        font-family: 'Ibarra Real Nova', serif;
+        font-weight: 700;
+        position: relative;
+
+        &::after {
+            content: '';
+            border-bottom: 2px solid #b9b9b933;
+            position: absolute;
+            bottom: 1rem;
+            left: 37rem;
+            height: 2rem;
+            width: 53rem;
+        }
+    }
+}
