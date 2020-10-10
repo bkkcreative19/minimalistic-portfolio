@@ -1,6 +1,7 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom'
 import './App.scss';
+import Footer from './components/Footer/Footer';
 import Contact from './pages/Contact/Contact';
 import Home from './pages/Home/Home';
 import Portfolio from './pages/Portfolio/Portfolio';
@@ -19,6 +20,7 @@ function App() {
           <Contact/>
         </Route>
       </Switch>
+      <Footer/>
     </div>
   );
 }

@@ -1,0 +1,39 @@
+.footer {
+    padding: 2rem 0;
+    background-color: #33323D;
+
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo img {
+        
+    }
+
+    &__list {
+        display: flex;
+        list-style: none;
+        margin-left: 2rem;
+
+        &-link {
+            color: #fff;
+            font-size: 1.2rem;
+            font-family: 'Public Sans', sans-serif;
+            font-weight: 600;
+            text-decoration: none;
+            margin-left: 2.9rem;
+            text-transform: uppercase;
+            letter-spacing: .2rem;
+        }
+    }
+
+    &__logos {
+        margin-left: auto;
+        
+    }
+    &__logos img:not(:last-child){
+        margin-right: 1.4rem;
+        
+    }
+}
