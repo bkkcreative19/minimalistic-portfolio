@@ -1,0 +1,79 @@
+.projects {
+    margin-top: 5rem;
+
+    &__item {
+        display: flex;
+        margin-bottom: 6rem;
+
+        &:nth-child(2), &:nth-child(4) {
+            flex-direction: row-reverse;
+        }
+       
+
+        &-img {
+            background-size: cover;
+            height: 50rem;
+            flex: 2;
+        }
+        
+        &-content {
+            flex: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+           
+           
+
+            &-container {
+                width: 70%;
+                // border-top: 2px solid #b9b9b933;
+                // border-bottom: 2px solid #b9b9b933;
+                // padding: 10rem 0;
+            }
+
+            &-head {
+                font-size: 4rem;
+                font-family: 'Ibarra Real Nova', serif;
+                font-weight: 700;
+                color: #33323D;
+                
+            }
+            &-text {
+                font-size: 1.6rem;
+                max-width: 85%;
+                line-height: 1.7;
+                margin: 2.5rem 0;
+                font-family: 'Public Sans', sans-serif;
+                color: #33323D;
+            }
+        }
+    }
+}
+
+.img1 {
+    background: url(../../assets/portfolio/desktop/image-portfolio-manage.jpg);
+}
+.img2 {
+    background: url(../../assets/portfolio/desktop/image-portfolio-bookmark.jpg);
+}
+.img3 {
+    background: url(../../assets/portfolio/desktop/image-portfolio-insure.jpg);
+}
+.img4 {
+    background: url(../../assets/portfolio/desktop/image-portfolio-fylo.jpg);
+}
+
+.border-top {
+    position: absolute;
+    top: 0;
+    border-bottom: 2px solid #b9b9b933;
+    width: 35rem;
+}
+
+.border-bottom {
+    position: absolute;
+    bottom: 0;
+    border-bottom: 2px solid #b9b9b933;
+    width: 35rem;
+}
