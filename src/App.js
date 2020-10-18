@@ -11,6 +11,7 @@ import ProjectDetails from './pages/ProjectDetails/ProjectDetails';
 function App() {
   return (
     <div className="App">
+      <NavBar/>
       <Switch>
         <Route exact path='/'>
           <Home/>
@@ -23,7 +24,7 @@ function App() {
           <Contact/>
         </Route>
       </Switch>
-    
+      <Footer/>
     </div>
   );
 }

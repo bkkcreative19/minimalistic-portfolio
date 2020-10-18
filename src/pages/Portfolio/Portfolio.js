@@ -5,7 +5,6 @@ import Projects from '../../components/Projects/Projects'
 const Portfolio = () => {
     return (
         <div className='portfolio container'>
-            <NavBar/>
             <Projects/>
         </div>
     )
