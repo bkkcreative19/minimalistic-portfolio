@@ -12,6 +12,10 @@
         border-bottom: 1px solid #33323d2a;
         padding: 4rem 0;
 
+        @media screen and (max-width: 1000px) {
+            flex-direction: column;
+          }
+
         & h2 {
             flex: 2;
         }
@@ -23,8 +27,12 @@
                 font-size: 1.6rem;
                 font-family: 'Public Sans', sans-serif;
                 color: #33323D;
-                line-height: 1.6;
+                line-height: 1.9;
                 margin-bottom: 7rem;
+
+                @media screen and (max-width: 1000px) {
+                    margin-top: 1.2rem;
+                  }
             }
             
 
@@ -38,6 +46,10 @@
     &__contact-me {
         display: flex;
         margin-top: 3rem;
+
+        @media screen and (max-width: 1000px) {
+            flex-direction: column;
+          }
 
         & h2 {
             flex: 2;

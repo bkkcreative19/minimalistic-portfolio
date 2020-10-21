@@ -30,6 +30,10 @@
                 // border-top: 2px solid #b9b9b933;
                 // border-bottom: 2px solid #b9b9b933;
                 // padding: 10rem 0;
+
+                // @media screen and (max-width: 1000px) {
+                //     background: url(../../assets/portfolio/tablet/image-portfolio-insure.jpg) no-repeat center;
+                //   }
             }
 
             &-head {
@@ -41,11 +45,15 @@
             }
             &-text {
                 font-size: 1.6rem;
-                max-width: 85%;
-                line-height: 1.7;
+                width: 85%;
+                line-height: 2;
                 margin: 2.5rem 0;
                 font-family: 'Public Sans', sans-serif;
                 color: #33323D;
+
+                @media screen and (max-width: 1000px) {
+                    width: 100%;
+                  }
             }
         }
     }
@@ -53,15 +61,32 @@
 
 .img1 {
     background: url(../../assets/portfolio/desktop/image-portfolio-manage.jpg);
+
+    
+    @media screen and (max-width: 1000px) {
+        background: url(../../assets/portfolio/tablet/image-portfolio-manage.jpg) no-repeat center;
+      }
 }
 .img2 {
     background: url(../../assets/portfolio/desktop/image-portfolio-bookmark.jpg);
+
+    @media screen and (max-width: 1000px) {
+        background: url(../../assets/portfolio/tablet/image-portfolio-bookmark.jpg) no-repeat center;
+      }
 }
 .img3 {
     background: url(../../assets/portfolio/desktop/image-portfolio-insure.jpg);
+
+    @media screen and (max-width: 1000px) {
+        background: url(../../assets/portfolio/tablet/image-portfolio-insure.jpg) no-repeat center;
+      }
 }
 .img4 {
     background: url(../../assets/portfolio/desktop/image-portfolio-fylo.jpg);
+
+    @media screen and (max-width: 1000px) {
+        background: url(../../assets/portfolio/tablet/image-portfolio-fylo.jpg) no-repeat center;
+      }
 }
 
 .border-top {
@@ -69,6 +94,10 @@
     top: 0;
     border-bottom: 2px solid #b9b9b933;
     width: 35rem;
+
+    @media screen and (max-width: 1000px) {
+       width: 26rem;
+      }
 }
 
 .border-bottom {
@@ -76,4 +105,8 @@
     bottom: 0;
     border-bottom: 2px solid #b9b9b933;
     width: 35rem;
+
+    @media screen and (max-width: 1000px) {
+        width: 26rem;
+      }
 }
