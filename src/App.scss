@@ -10,11 +10,16 @@ html {
 
 a {
   text-decoration: none;
+  
 }
 
 .container {
   width: 75%;
   margin: 0 auto;
+
+  @media screen and (max-width: 1000px) {
+    width: 95%;
+  }
 }
 
 .btn {
@@ -25,4 +30,5 @@ a {
   outline: none;
   border: 1px soild #33323D;
   letter-spacing: .2rem;
+  cursor: pointer;
 }

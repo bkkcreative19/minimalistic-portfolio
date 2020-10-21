@@ -1,9 +1,6 @@
 import React from 'react'
-import NavBar from '../../components/NavBar/NavBar'
+
 import './Contact.scss'
-import logo1 from '../../assets/icons/github.svg'
-import logo2 from '../../assets/icons/twitter.svg'
-import logo3 from '../../assets/icons/linkedin.svg'
 
 const Contact = () => {
     return (

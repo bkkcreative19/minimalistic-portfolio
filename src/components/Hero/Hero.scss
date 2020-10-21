@@ -1,16 +1,28 @@
 .hero {
-    background: url(../../assets/homepage/desktop/image-homepage-hero.jpg) center;
+    background: url(../../assets/homepage/desktop/image-homepage-hero.jpg) center no-repeat;
     background-size: cover;
     height: 80vh;
     position: relative;
+
+    @media screen and (max-width: 1000px) {
+        background: url(../../assets/homepage/tablet/image-homepage-hero.jpg) center no-repeat;
+        background-size: cover;
+        height: 100vh;
+      }
     
     &__content {
         background-color: #fff;
         color: #33323D;
-        position: absolute;
-        bottom: 0;
+        position: relative;
+        bottom: -22rem;
         width: 470px;
         padding: 4.5rem 0;
+
+        @media screen and (max-width: 1000px) {
+            bottom: -41rem;
+            width: 620px;
+            // padding: rem 0;
+          }
       
 
         &-text {
@@ -19,10 +31,30 @@
             font-weight: 700;
             width: 90%;
             text-align: start;
+
+            
         }
 
         &-btn {
-            
+            background-color: #203A4C;
+            color: #fff;
+            position: relative;
+            bottom: -4rem;
+            width: 50%;
+
+            @media screen and (max-width: 1000px) {
+                width: 40%;
+              }
+
+            & svg {
+                
+                position: relative;
+                left: -5rem;
+                top: .2rem;
+                // width: 4.8rem;
+                // margin: auto auto;
+                // height: 100%;
+            }
           
         }
        

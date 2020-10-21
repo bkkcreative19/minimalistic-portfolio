@@ -7,12 +7,25 @@
         background-size: cover;
         height: 55rem;
         flex: 2;
+
+        @media screen and (max-width: 1000px) {
+            background: url(../../assets/homepage/tablet/image-homepage-profile.jpg) center no-repeat;
+            background-size: cover;
+            flex: 1.5;
+          }
     }
     
     
     &__content {
         flex: 2;
         // padding: 3rem 0;
+        
+        @media screen and (max-width: 1000px) {
+           
+            width: 70%;
+            flex: 2.5;
+          }
+        
         
 
         &-container {
@@ -23,6 +36,10 @@
             border-bottom: 2px solid #b9b9b933;
             padding-bottom: 4rem;
             padding-top: 4rem;
+
+            @media screen and (max-width: 1000px) {
+                width: 80%;
+              }
             
         }
 
@@ -47,6 +64,7 @@
             outline: none;
             border: 1px soild #33323D;
             letter-spacing: .2rem;
+            cursor: pointer;
         }
     }
 }

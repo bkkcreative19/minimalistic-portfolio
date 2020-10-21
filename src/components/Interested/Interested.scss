@@ -18,6 +18,11 @@
             left: 37rem;
             height: 2rem;
             width: 53rem;
+
+            
+        @media screen and (max-width: 1000px) {
+            width: 11rem;
+          }
         }
     }
 }

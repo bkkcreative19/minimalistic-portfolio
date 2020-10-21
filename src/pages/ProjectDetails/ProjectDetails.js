@@ -1,7 +1,5 @@
 import React from 'react'
-import NavBar from '../../components/NavBar/NavBar'
 import './ProjectDetails.scss'
-import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 import projects from '../../data'
 import leftIcon from '../../assets/icons/arrow-left.svg'
@@ -43,7 +41,7 @@ const ProjectDetails = ({match}) => {
         <section className='project-details container'>
         
             <div className="project-details__img-container">
-                <img className='project-details__container-hero' src={project.mainImg}/>
+                <img className='project-details__container-hero' src={project.mainImg} alt='hero-details'/>
             </div>
             
             <div className="project-details__content">
