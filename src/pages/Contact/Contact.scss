@@ -2,8 +2,15 @@
     margin-top: 6rem;
     margin-bottom: 6rem;
 
+    @media screen and (max-width: 750px) {
+        width: 90%;
+        margin-top: 2rem;
+      }
+
     & h2 {
         font-size: 4rem;
+        font-family: 'Ibarra Real Nova', serif;
+        font-weight: 700;
     }
 
     &__get-in-touch {
@@ -18,6 +25,7 @@
 
         & h2 {
             flex: 2;
+            
         }
 
         &-content {
@@ -86,6 +94,10 @@
                     color: #fff;
                     margin: 4rem 0;
                     width: 40%;
+
+                    @media screen and (max-width: 750px) {
+                        width: 60%;
+                      }
                 }
             }
         }

@@ -9,6 +9,11 @@
         background-size: cover;
         height: 100vh;
       }
+    @media screen and (max-width: 750px) {
+        background: url(../../assets/homepage/mobile/image-homepage-hero.jpg) center no-repeat;
+        background-size: cover;
+        height: 60vh;
+      }
     
     &__content {
         background-color: #fff;
