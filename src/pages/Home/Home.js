@@ -2,7 +2,6 @@ import React from 'react'
 import About from '../../components/About/About'
 import Hero from '../../components/Hero/Hero'
 import Interested from '../../components/Interested/Interested'
-import NavBar from '../../components/NavBar/NavBar'
 import './Home.scss'
 
 const Home = () => {
