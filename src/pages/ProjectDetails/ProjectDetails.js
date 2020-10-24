@@ -68,16 +68,18 @@ const ProjectDetails = ({match}) => {
                         <Link to={`/projects/${previous}`}><h4>{previous}</h4></Link>
                         <p>Previous Project</p>
                     </div>
-                   
-                    <img className='left' src={leftIcon} alt=""/>
+                    
+                    <Link to={`/projects/${previous}`}><img className='left' src={leftIcon} alt=""/></Link>
+                    
                 </div>
                 <div className="slider-controls__next">
                     <div className="slider-controls__next-content">
-                    <Link to={`/projects/${next}`}><h4>{next}</h4></Link>
+                        <Link to={`/projects/${next}`}><h4>{next}</h4></Link>
                         <p>Next Project</p>
                     </div>
-                   
-                    <img className='right' src={rightIcon} alt=""/>
+
+                    <Link to={`/projects/${next}`}><img className='right' src={rightIcon} alt=""/></Link>
+                    
                 </div>
             </div>
             <Interested/>
