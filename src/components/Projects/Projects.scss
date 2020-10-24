@@ -1,9 +1,18 @@
 .projects {
     margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 2rem;
 
     &__item {
         display: flex;
         margin-bottom: 6rem;
+        
+        @media screen and (max-width: 750px) {
+           display: grid;
+           grid-template-columns: repeat(1, 1fr);
+           
+          }
 
         &:nth-child(2), &:nth-child(4) {
             flex-direction: row-reverse;
@@ -14,7 +23,11 @@
             background-size: cover;
             height: 50rem;
             flex: 2;
-        }
+
+            @media screen and (max-width: 750px) {
+                margin-bottom: 3rem;
+               }
+}
         
         &-content {
             flex: 2;
@@ -23,6 +36,10 @@
             align-items: center;
             position: relative;
            
+            @media screen and (max-width: 750px) {
+                justify-content: flex-start;
+                padding: 4rem 0;
+               }
            
 
             &-container {
@@ -66,12 +83,21 @@
     @media screen and (max-width: 1000px) {
         background: url(../../assets/portfolio/tablet/image-portfolio-manage.jpg) no-repeat center;
       }
+    @media screen and (max-width: 750px) {
+        background: url(../../assets/portfolio/mobile/image-portfolio-manage.jpg) no-repeat center;
+        background-size: cover;
+      }
 }
 .img2 {
     background: url(../../assets/portfolio/desktop/image-portfolio-bookmark.jpg);
 
     @media screen and (max-width: 1000px) {
         background: url(../../assets/portfolio/tablet/image-portfolio-bookmark.jpg) no-repeat center;
+      }
+
+      @media screen and (max-width: 750px) {
+        background: url(../../assets/portfolio/mobile/image-portfolio-bookmark.jpg) no-repeat center;
+        background-size: cover;
       }
 }
 .img3 {
@@ -80,12 +106,22 @@
     @media screen and (max-width: 1000px) {
         background: url(../../assets/portfolio/tablet/image-portfolio-insure.jpg) no-repeat center;
       }
+
+      @media screen and (max-width: 750px) {
+        background: url(../../assets/portfolio/mobile/image-portfolio-insure.jpg) no-repeat center;
+        background-size: cover;
+      }
 }
 .img4 {
     background: url(../../assets/portfolio/desktop/image-portfolio-fylo.jpg);
 
     @media screen and (max-width: 1000px) {
         background: url(../../assets/portfolio/tablet/image-portfolio-fylo.jpg) no-repeat center;
+      }
+
+      @media screen and (max-width: 750px) {
+        background: url(../../assets/portfolio/mobile/image-portfolio-fylo.jpg) no-repeat center;
+        background-size: cover;
       }
 }
 
@@ -98,6 +134,10 @@
     @media screen and (max-width: 1000px) {
        width: 26rem;
       }
+
+      @media screen and (max-width: 750px) {
+        width: 50rem;
+       }
 }
 
 .border-bottom {
@@ -109,4 +149,8 @@
     @media screen and (max-width: 1000px) {
         width: 26rem;
       }
+
+      @media screen and (max-width: 750px) {
+        width: 50rem;
+       }
 }
