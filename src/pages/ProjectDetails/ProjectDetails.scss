@@ -146,9 +146,9 @@
 
         @media screen and (max-width: 750px) {
             flex-direction: column-reverse;
-            position: relative;
-            top: -2rem;
-            left: 17rem;
+            position: absolute;
+            top: 2rem;
+            right: 0;
             
            }
     }
@@ -157,9 +157,9 @@
 
         @media screen and (max-width: 750px) {
             flex-direction: column-reverse;
-            position: relative;
-            top: -2rem;
-            left: -.1rem;
+            position: absolute;
+            top: 2rem;
+            left: 0;
            
            }
     }
@@ -183,6 +183,23 @@
         padding: 4rem 0;
         cursor: pointer;
 
+        &-content {
+
+            @media screen and (max-width: 750px) {
+                margin-right: auto;
+                margin-top: 3rem;
+               }
+            
+               & p {
+
+                @media screen and (max-width: 750px) {
+                    text-align: start;
+                   }
+                   
+               }
+            
+        }
+
         @media screen and (max-width: 750px) {
             flex-direction: column-reverse;
             justify-content: center;
@@ -197,10 +214,13 @@
         padding: 3rem 0;
         cursor: pointer;
 
+        
+
         &-content {
 
             @media screen and (max-width: 750px) {
                 margin-left: auto;
+                margin-top: 3rem;
                }
             
                & p {
