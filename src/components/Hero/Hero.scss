@@ -12,7 +12,7 @@
     @media screen and (max-width: 750px) {
         background: url(../../assets/homepage/mobile/image-homepage-hero.jpg) center no-repeat;
         background-size: cover;
-        height: 60vh;
+        height: 50vh;
       }
     
     &__content {
@@ -36,6 +36,11 @@
             font-weight: 700;
             width: 90%;
             text-align: start;
+
+            @media screen and (max-width: 1000px) {
+              font-size: 4rem;
+              width: 70%;
+            }
 
             
         }

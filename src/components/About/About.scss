@@ -1,30 +1,30 @@
 .about {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin-top: 24rem;
 
     @media screen and (max-width: 750px) {
-        flex-direction: column;
+      grid-template-columns: repeat(1, 1fr);
         height: 100vh;
         margin-top: 44rem;
+        margin-bottom: 55rem;
       }
 
     &__img {
         background: url(../../assets/homepage/desktop/image-homepage-profile.jpg) center no-repeat;
         background-size: cover;
         height: 55rem;
-        flex: 2;
+      
 
         @media screen and (max-width: 1000px) {
             background: url(../../assets/homepage/tablet/image-homepage-profile.jpg) center no-repeat;
             background-size: cover;
-            flex: 1.5;
+            
           }
 
           @media screen and (max-width: 750px) {
             background: url(../../assets/homepage/mobile/image-homepage-profile.jpg) center no-repeat;
             background-size: cover;
-            width: 100%;
-            height: 100%;
           }
     }
     
@@ -39,7 +39,6 @@
             flex: 2.5;
           }
         @media screen and (max-width: 750px) {
-           
             width: 100%;
             margin-top: 10rem;
           }
@@ -47,7 +46,6 @@
         
 
         &-container {
-            height: 100%;
             width: 57%;
             margin: 0 auto;
             border-top: 2px solid #97979733;
@@ -56,7 +54,7 @@
             padding-top: 4rem;
 
             @media screen and (max-width: 1000px) {
-                width: 80%;
+                width: 100%;
               }
             
         }
