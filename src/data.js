@@ -1,3 +1,4 @@
+// import image from './assets/'
 import image1 from './assets/detail/desktop/image-manage-hero.jpg'
 import image2 from './assets/detail/desktop/image-insure-hero.jpg'
 import image3 from './assets/detail/desktop/image-bookmark-hero.jpg'
@@ -23,6 +24,8 @@ const projects = [
         background: "The Project was a frontend challenge from frontend mentor. It's a platform that enables you to practice building webistes to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look on different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. Ive learned something new with each project, helping me to improve and adapt my style.",
         staticPreview_1: managePre1,
         staticPreview_2: managePre2,
+        websiteLink: 'https://kris-team.netlify.app/',
+        githubLink: 'https://github.com/bkkcreative19/my-team'
         
     },
     {
@@ -32,6 +35,8 @@ const projects = [
         background: "The Project was a frontend challenge from frontend mentor. It's a platform that enables you to practice building webistes to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look on different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. Ive learned something new with each project, helping me to improve and adapt my style.",
         staticPreview_1: bookmarkPre1,
         staticPreview_2: bookmarkPre2,
+        websiteLink: 'https://bkkcreative19.github.io/Bookmark-Landing-Page/#',
+        githubLink: 'https://github.com/bkkcreative19/Bookmark-Landing-Page'
     },
     {
         name: "Insure",
@@ -40,6 +45,8 @@ const projects = [
         background: "The Project was a frontend challenge from frontend mentor. It's a platform that enables you to practice building webistes to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look on different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. Ive learned something new with each project, helping me to improve and adapt my style.",
         staticPreview_1: insurePre1,
         staticPreview_2: insurePre2,
+        websiteLink: 'https://kris-team.netlify.app/',
+        githubLink: 'https://github.com/bkkcreative19/my-team'
     },
     {
         name: "Fylo",
@@ -48,6 +55,8 @@ const projects = [
         background: "The Project was a frontend challenge from frontend mentor. It's a platform that enables you to practice building webistes to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look on different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. Ive learned something new with each project, helping me to improve and adapt my style.",
         staticPreview_1: fyloPre1,
         staticPreview_2: fyloPre2,
+        websiteLink: 'https://kris-team.netlify.app/',
+        githubLink: 'https://github.com/bkkcreative19/my-team'
     },
 ]
 

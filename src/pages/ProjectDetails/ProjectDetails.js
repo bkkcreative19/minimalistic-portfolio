@@ -40,15 +40,19 @@ const ProjectDetails = ({match}) => {
     return (
         <section className='project-details container'>
         
-            <div className="project-details__img-container">
-                <img className='project-details__container-hero' src={project.mainImg} alt='hero-details'/>
+            <div style={{background: `url(${project.mainImg}) center no-repeat`,
+                        backgroundSize: 'cover',
+                        
+                }} className="project-details__img-container">
+                {/*<img className='project-details__container-hero' src={project.mainImg} alt='hero-details'/>*/}
             </div>
             
             <div className="project-details__content">
                 <div className="project-details__content-title">
                     <h2 className="project-details__content-title-head">{project.name}</h2>
                     <p className="project-details__content-title-text">{project.description}</p>
-                    <Link to='/projects/fylo'><button className="projects__item-content-btn btn">View Project</button></Link>
+                    <a target='_blank' href={project.websiteLink}><button className="projects__item-content-btn btn">View Project</button></a> 
+                   
                 </div>
                 <div className="project-details__content-background">
                     <h3 className="project-details__content-background-head">Project Background</h3>

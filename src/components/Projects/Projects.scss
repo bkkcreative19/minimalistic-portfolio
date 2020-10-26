@@ -53,9 +53,9 @@
                 // border-bottom: 2px solid #b9b9b933;
                 // padding: 10rem 0;
 
-                // @media screen and (max-width: 1000px) {
-                //     background: url(../../assets/portfolio/tablet/image-portfolio-insure.jpg) no-repeat center;
-                //   }
+                @media screen and (max-width: 750px) {
+                    width: 90%;
+                  }
             }
 
             &-head {
