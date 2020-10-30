@@ -16,21 +16,21 @@ const ProjectDetails = ({match}) => {
 
 
     switch (match.params.name) {
-        case 'Manage':
-            previous = 'Fylo'
-            next = 'Bookmark'
+        case 'MyTeam':
+            previous = 'BookMark'
+            next = 'Photosnap'
             break
-        case 'Bookmark':
-            previous = 'Manage'
-            next = 'Insure'
+        case 'Photosnap':
+            previous = 'MyTeam'
+            next = 'Beach Resort'
             break
-        case 'Insure':
-            previous = 'Bookmark'
-            next = 'Fylo'
+        case 'Beach Resort':
+            previous = 'Photosnap'
+            next = 'BookMark'
             break
-        case 'Fylo':
-            previous = 'Insure'
-            next = 'Manage'
+        case 'BookMark':
+            previous = 'Beach Resort'
+            next = 'MyTeam'
             break
         default:
             console.log('hi')
@@ -40,7 +40,7 @@ const ProjectDetails = ({match}) => {
     return (
         <section className='project-details container'>
         
-            <div style={{background: `url(${project.mainImg}) center no-repeat`,
+            <div style={{background: `url(${project.mainImg}) top no-repeat`,
                         backgroundSize: 'cover',
                         
                 }} className="project-details__img-container">
@@ -60,13 +60,21 @@ const ProjectDetails = ({match}) => {
 
                     <div className="project-details__content-background-previews">
                         <h3>Static Previews</h3>
-                        <img src={project.staticPreview_1} alt=""/>
-                        <img src={project.staticPreview_2} alt=""/>
+                        <div style={{background: `url(${project.staticPreview_1}) center no-repeat`,
+                        backgroundSize: 'cover',
+                        
+                }} className="static-preview-1"></div>
+                        <div style={{background: `url(${project.staticPreview_2}) center no-repeat`,
+                        backgroundSize: 'cover',
+                        
+                }} className="static-preview-2"></div>
+                       
+                       
                     </div>
                 </div>
             </div>
             
-            <div className="slider-controls">
+            {/*<div className="slider-controls">
                 <div className="slider-controls__previous">
                     <div className="slider-controls__previous-content">
                         <Link to={`/projects/${previous}`}><h4>{previous}</h4></Link>
@@ -85,7 +93,7 @@ const ProjectDetails = ({match}) => {
                     <Link to={`/projects/${next}`}><img className='right' src={rightIcon} alt=""/></Link>
                     
                 </div>
-            </div>
+            </div>*/}
             <Interested/>
         </section>
     )

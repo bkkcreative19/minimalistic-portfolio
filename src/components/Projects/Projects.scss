@@ -82,50 +82,58 @@
 }
 
 .img1 {
-    background: url(../../assets/portfolio/desktop/image-portfolio-manage.jpg);
+    background: url(../../assets/projectImgs/myTeam/My-Team-Kris4.png) no-repeat top;
+    background-size: cover;
 
     
     @media screen and (max-width: 1000px) {
-        background: url(../../assets/portfolio/tablet/image-portfolio-manage.jpg) no-repeat center;
+        background: url(../../assets/projectImgs/myTeam/My-Team-Kris4.png) no-repeat top;
+        background-size: cover;
       }
     @media screen and (max-width: 750px) {
-        background: url(../../assets/portfolio/mobile/image-portfolio-manage.jpg) no-repeat center;
+        background: url(../../assets/projectImgs/myTeam/My-Team-Kris4.png) no-repeat top;
         background-size: cover;
       }
 }
 .img2 {
-    background: url(../../assets/portfolio/desktop/image-portfolio-bookmark.jpg);
+    background: url(../../assets/projectImgs/photosnap/Photosnap1.png)no-repeat top;
+    background-size: cover;
 
     @media screen and (max-width: 1000px) {
-        background: url(../../assets/portfolio/tablet/image-portfolio-bookmark.jpg) no-repeat center;
+        background: url(../../assets/projectImgs/photosnap/Photosnap1.png) no-repeat top;
+        background-size: cover;
       }
 
       @media screen and (max-width: 750px) {
-        background: url(../../assets/portfolio/mobile/image-portfolio-bookmark.jpg) no-repeat center;
+        background: url(../../assets/projectImgs/photosnap/Photosnap1.png) no-repeat top;
         background-size: cover;
       }
 }
 .img3 {
-    background: url(../../assets/portfolio/desktop/image-portfolio-insure.jpg);
+    background: url(../../assets/projectImgs/resort/Resort1.png) no-repeat top;
+    background-size: cover;
 
     @media screen and (max-width: 1000px) {
-        background: url(../../assets/portfolio/tablet/image-portfolio-insure.jpg) no-repeat center;
+        background: url(../../assets/projectImgs/resort/Resort1.png) no-repeat top;
+        background-size: cover;
       }
 
       @media screen and (max-width: 750px) {
-        background: url(../../assets/portfolio/mobile/image-portfolio-insure.jpg) no-repeat center;
+        background: url(../../assets/projectImgs/resort/Resort1.png) no-repeat top;
         background-size: cover;
       }
 }
 .img4 {
-    background: url(../../assets/portfolio/desktop/image-portfolio-fylo.jpg);
+    background: url(../../assets/projectImgs/BookMark/BookMark1.png) no-repeat top;
+    background-size: cover;
 
     @media screen and (max-width: 1000px) {
-        background: url(../../assets/portfolio/tablet/image-portfolio-fylo.jpg) no-repeat center;
+        background: url(../../assets/projectImgs/BookMark/BookMark1.png) no-repeat top;
+        background-size: cover;
       }
 
       @media screen and (max-width: 750px) {
-        background: url(../../assets/portfolio/mobile/image-portfolio-fylo.jpg) no-repeat center;
+        background: url(../../assets/projectImgs/BookMark/BookMark1.png) no-repeat top;
         background-size: cover;
       }
 }

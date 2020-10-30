@@ -5,7 +5,7 @@
       }
 
     &__img-container {
-        height:70vh;
+        height:80vh;
 
         @media screen and (max-width: 750px) {
             margin-top: 4rem;
@@ -131,6 +131,15 @@
         }
         
     }
+}
+
+.static-preview-1,
+.static-preview-2 {
+    height: 50vh;
+}
+
+.static-preview-2 {
+    margin-top: 1.2rem;
 }
 
 .slider-controls {
