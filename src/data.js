@@ -37,7 +37,7 @@ const projects = [
         background: "The Project was a frontend challenge from frontend mentor. It's a platform that enables you to practice building webistes to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look on different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. Ive learned something new with each project, helping me to improve and adapt my style.",
         staticPreview_1: photoSnap1,
         staticPreview_2: photoSnap2,
-        websiteLink: 'https://bkkcreative19.github.io/Bookmark-Landing-Page/#',
+        websiteLink: 'https://myphotosnap.netlify.app/',
         githubLink: 'https://github.com/bkkcreative19/Bookmark-Landing-Page'
     },
     {
