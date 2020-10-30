@@ -1,40 +1,40 @@
 import React from 'react'
 import './ProjectDetails.scss'
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 import projects from '../../data'
-import leftIcon from '../../assets/icons/arrow-left.svg'
-import rightIcon from '../../assets/icons/arrow-right.svg'
+// import leftIcon from '../../assets/icons/arrow-left.svg'
+// import rightIcon from '../../assets/icons/arrow-right.svg'
 import Interested from '../../components/Interested/Interested'
 
 const ProjectDetails = ({match}) => {
     const project = projects.find(p => p.name === match.params.name)
 
-    console.log(match.params.name)
+   
 
-    let previous;
-    let next;
+    // let previous;
+    // let next;
 
 
-    switch (match.params.name) {
-        case 'MyTeam':
-            previous = 'BookMark'
-            next = 'Photosnap'
-            break
-        case 'Photosnap':
-            previous = 'MyTeam'
-            next = 'Beach Resort'
-            break
-        case 'Beach Resort':
-            previous = 'Photosnap'
-            next = 'BookMark'
-            break
-        case 'BookMark':
-            previous = 'Beach Resort'
-            next = 'MyTeam'
-            break
-        default:
-            console.log('hi')
-    }
+    // switch (match.params.name) {
+    //     case 'MyTeam':
+    //         previous = 'BookMark'
+    //         next = 'Photosnap'
+    //         break
+    //     case 'Photosnap':
+    //         previous = 'MyTeam'
+    //         next = 'Beach Resort'
+    //         break
+    //     case 'Beach Resort':
+    //         previous = 'Photosnap'
+    //         next = 'BookMark'
+    //         break
+    //     case 'BookMark':
+    //         previous = 'Beach Resort'
+    //         next = 'MyTeam'
+    //         break
+    //     default:
+    //         console.log('hi')
+    // }
     
     
     return (
@@ -51,7 +51,7 @@ const ProjectDetails = ({match}) => {
                 <div className="project-details__content-title">
                     <h2 className="project-details__content-title-head">{project.name}</h2>
                     <p className="project-details__content-title-text">{project.description}</p>
-                    <a target='_blank' href={project.websiteLink}><button className="projects__item-content-btn btn">View Project</button></a> 
+                    <a rel='noopener noreferrer' target='_blank' href={project.websiteLink}><button className="projects__item-content-btn btn">View Project</button></a> 
                    
                 </div>
                 <div className="project-details__content-background">

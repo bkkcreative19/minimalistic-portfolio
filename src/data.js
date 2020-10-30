@@ -13,17 +13,10 @@ import photoSnap2 from './assets/projectImgs/photosnap/PhotoSnap3.png'
 import resort1 from './assets/projectImgs/resort/Resort2.png'
 import resort2 from './assets/projectImgs/resort/Resort3.png'
 
-import managePre1 from "./assets/detail/desktop/image-manage-preview-1.jpg"
-import managePre2 from "./assets/detail/desktop/image-manage-preview-2.jpg"
 
 import bookmarkPre1 from "./assets/projectImgs/BookMark/BookMark2.png"
 import bookmarkPre2 from "./assets/projectImgs/BookMark/BookMark3.png"
 
-import insurePre1 from "./assets/detail/desktop/image-insure-preview-1.jpg"
-import insurePre2 from "./assets/detail/desktop/image-insure-preview-2.jpg"
-
-import fyloPre1 from "./assets/detail/desktop/image-fylo-preview-1.jpg"
-import fyloPre2 from "./assets/detail/desktop/image-fylo-preview-2.jpg"
 
 const projects = [
     {
