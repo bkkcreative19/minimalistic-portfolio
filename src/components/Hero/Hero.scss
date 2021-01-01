@@ -1,7 +1,6 @@
 .hero {
   background: url(../../assets/monica-sauro-Z3vq1JvQZ-Y-unsplash.jpg) center
     no-repeat;
-  // background: url() center no-repeat;
   background-size: cover;
   height: 80vh;
   position: relative;
@@ -30,7 +29,6 @@
     @media screen and (max-width: 1000px) {
       bottom: -41rem;
       width: 620px;
-      // padding: rem 0;
     }
 
     &-text {
@@ -61,9 +59,6 @@
         position: relative;
         left: -5rem;
         top: 0.2rem;
-        // width: 4.8rem;
-        // margin: auto auto;
-        // height: 100%;
       }
     }
   }

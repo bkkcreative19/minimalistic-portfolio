@@ -16,9 +16,7 @@ const About = () => {
             I’m a front-end developer looking for a new role in an exciting
             company. I focus on writing accessible HTML, using modern CSS
             practices and writing clean JavaScript. When writing JavaScript
-            code, I mostly use React, but I can adapt to whatever tools are
-            required. I’m based in Fort Worth, Texas. When I’m not coding,
-            you’ll find me outdoors.
+            code. I’m based in Fort Worth, Texas.
           </p>
           <Link to="/portfolio">
             <button className="about__content-btn btn">Go to portfolio</button>

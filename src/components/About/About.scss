@@ -5,26 +5,16 @@
 
   @media screen and (max-width: 750px) {
     grid-template-columns: repeat(1, 1fr);
-    // height: 100vh;
     margin-top: 44rem;
-    // margin-bottom: 55rem;
   }
 
   &__img {
-    // background: url(../../assets/undraw_Code_review_re_woeb.svg) center
-    //   no-repeat;
     background-size: cover;
     height: 55rem;
 
     @media screen and (max-width: 1000px) {
       height: 25rem;
     }
-
-    // @media screen and (max-width: 750px) {
-    //   background: url(../../assets/homepage/mobile/image-homepage-profile.jpg)
-    //     center no-repeat;
-    //   background-size: cover;
-    // }
 
     & img {
       width: 100%;
@@ -34,7 +24,6 @@
 
   &__content {
     flex: 2;
-    // padding: 3rem 0;
 
     @media screen and (max-width: 1000px) {
       width: 70%;
