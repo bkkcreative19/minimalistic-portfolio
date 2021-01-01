@@ -1,73 +1,70 @@
 .hero {
-    background: url(../../assets/homepage/desktop/image-homepage-hero.jpg) center no-repeat;
+  background: url(../../assets/monica-sauro-Z3vq1JvQZ-Y-unsplash.jpg) center
+    no-repeat;
+  // background: url() center no-repeat;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+
+  @media screen and (max-width: 1000px) {
+    background: url(../../assets/monica-sauro-Z3vq1JvQZ-Y-unsplash.jpg) center
+      no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
+  }
+  @media screen and (max-width: 750px) {
+    background: url(../../assets/monica-sauro-Z3vq1JvQZ-Y-unsplash.jpg) center
+      no-repeat;
+    background-size: cover;
+    height: 50vh;
+  }
+
+  &__content {
+    background-color: #fff;
+    color: #33323d;
     position: relative;
+    bottom: -22rem;
+    width: 470px;
+    padding: 4.5rem 0;
 
     @media screen and (max-width: 1000px) {
-        background: url(../../assets/homepage/tablet/image-homepage-hero.jpg) center no-repeat;
-        background-size: cover;
-        height: 100vh;
-      }
-    @media screen and (max-width: 750px) {
-        background: url(../../assets/homepage/mobile/image-homepage-hero.jpg) center no-repeat;
-        background-size: cover;
-        height: 50vh;
-      }
-    
-    &__content {
-        background-color: #fff;
-        color: #33323D;
-        position: relative;
-        bottom: -22rem;
-        width: 470px;
-        padding: 4.5rem 0;
-
-        @media screen and (max-width: 1000px) {
-            bottom: -41rem;
-            width: 620px;
-            // padding: rem 0;
-          }
-      
-
-        &-text {
-            font-size: 5rem;
-            font-family: 'Ibarra Real Nova', serif;
-            font-weight: 700;
-            width: 90%;
-            text-align: start;
-
-            @media screen and (max-width: 1000px) {
-              font-size: 4rem;
-              width: 70%;
-            }
-
-            
-        }
-
-        &-btn {
-            background-color: #203A4C;
-            color: #fff;
-            position: relative;
-            bottom: -4rem;
-            width: 50%;
-
-            @media screen and (max-width: 1000px) {
-                width: 40%;
-              }
-
-            & svg {
-                
-                position: relative;
-                left: -5rem;
-                top: .2rem;
-                // width: 4.8rem;
-                // margin: auto auto;
-                // height: 100%;
-            }
-          
-        }
-       
+      bottom: -41rem;
+      width: 620px;
+      // padding: rem 0;
     }
-    
+
+    &-text {
+      font-size: 5rem;
+      font-family: "Ibarra Real Nova", serif;
+      font-weight: 700;
+      width: 90%;
+      text-align: start;
+
+      @media screen and (max-width: 1000px) {
+        font-size: 4rem;
+        width: 70%;
+      }
+    }
+
+    &-btn {
+      background-color: #203a4c;
+      color: #fff;
+      position: relative;
+      bottom: -4rem;
+      width: 50%;
+
+      @media screen and (max-width: 1000px) {
+        width: 40%;
+      }
+
+      & svg {
+        position: relative;
+        left: -5rem;
+        top: 0.2rem;
+        // width: 4.8rem;
+        // margin: auto auto;
+        // height: 100%;
+      }
+    }
+  }
 }
