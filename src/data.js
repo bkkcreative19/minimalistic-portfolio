@@ -2,7 +2,7 @@
 import image1 from './assets/projectImgs/myTeam/My-Team-Kris4.png'
 import image2 from './assets/projectImgs/photosnap/Photosnap1.png'
 import image3 from './assets/projectImgs/resort/Resort1.png'
-import image4 from './assets/projectImgs/BookMark/BookMark1.png'
+import image4 from "./assets/projectImgs/Task-Manager/One.png"
 
 import myTeam1 from './assets/projectImgs/myTeam/My-Team-Kris2.png'
 import myTeam2 from './assets/projectImgs/myTeam/My-Team-Kris3.png'
@@ -14,8 +14,8 @@ import resort1 from './assets/projectImgs/resort/Resort2.png'
 import resort2 from './assets/projectImgs/resort/Resort3.png'
 
 
-import bookmarkPre1 from "./assets/projectImgs/BookMark/BookMark2.png"
-import bookmarkPre2 from "./assets/projectImgs/BookMark/BookMark3.png"
+import taskManagerPre1 from "./assets/projectImgs/Task-Manager/Two.png"
+import taskManagerPre2 from "./assets/projectImgs/Task-Manager/Three.png"
 
 
 const projects = [
@@ -51,14 +51,14 @@ const projects = [
         githubLink: 'https://github.com/bkkcreative19/my-team'
     },
     {
-        name: "BookMark",
+        name: "Task-Manager",
         mainImg: image4,
         description: "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",
         background: "The Project was a frontend challenge from frontend mentor. It's a platform that enables you to practice building webistes to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look on different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. Ive learned something new with each project, helping me to improve and adapt my style.",
-        staticPreview_1: bookmarkPre1,
-        staticPreview_2: bookmarkPre2,
-        websiteLink: 'https://bkkcreative19.github.io/Bookmark-Landing-Page/#',
-        githubLink: 'https://github.com/bkkcreative19/my-team'
+        staticPreview_1: taskManagerPre1,
+        staticPreview_2: taskManagerPre2,
+        websiteLink: 'https://distracted-kirch-b73109.netlify.app/',
+        githubLink: 'https://github.com/bkkcreative19/task-manager-mern'
     },
 ]
 

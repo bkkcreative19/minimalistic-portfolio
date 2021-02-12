@@ -51,11 +51,9 @@ const Projects = () => {
                 <div className="projects__item-img img4"></div>
                 <div className="projects__item-content">
                     <div className="projects__item-content-container">
-                        <h3 className="projects__item-content-head">BookMark</h3>
-                        <p className="projects__item-content-text">This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and 
-                        built it so that it was fully-responsive. I took a mobile-first approach and used modern 
-                        CSS like Flexbox and Grid for layout purposes.</p>
-                        <Link to='/projects/BookMark'><button className="projects__item-content-btn btn">View Project</button></Link>
+                        <h3 className="projects__item-content-head">Task Manager</h3>
+                        <p className="projects__item-content-text">This project was built using the Mern Stack. Its a full stack app where each user can create lists and tasks for each list</p>
+                        <Link to='/projects/Task-Manager'><button className="projects__item-content-btn btn">View Project</button></Link>
                     </div>
                     <div className="border-top"></div>
                     <div className="border-bottom"></div>
